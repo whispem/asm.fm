@@ -4,3 +4,4 @@ bin/
 
 # generated audio
 *.wav
+.DS_Store
