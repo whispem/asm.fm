@@ -1,0 +1,6 @@
+# build artifacts
+*.o
+bin/
+
+# generated audio
+*.wav
