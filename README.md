@@ -54,7 +54,7 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
 
 - [x] a single beep (square wave -> WAV header -> `write`)
 - [x] one octave, in tune (note -> frequency table)
-- [ ] a real melody, sequenced by hand
+- [x] a real melody, sequenced by hand
 - [ ] all four oscillators (square, saw, triangle, noise for drums)
 - [ ] polyphony — melody + bass + percussion at once (a tiny tracker)
 - [ ] ADSR envelopes, so notes breathe instead of clicking
