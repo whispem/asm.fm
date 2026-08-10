@@ -56,10 +56,18 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
 - [x] one octave, in tune (note -> frequency table)
 - [x] a real melody, sequenced by hand
 - [x] all four oscillators (square, saw, triangle, noise for drums)
-- [ ] polyphony — melody + bass + percussion at once (a tiny tracker)
+- [x] polyphony — melody + bass + percussion at once (a tiny tracker)
+  - [x] polyphony + ADSR — the mix, now without clicks
 - [ ] ADSR envelopes, so notes breathe instead of clicking
 - [ ] **[AMBITIOUS]** real-time output straight to the sound card (`/dev/dsp`, then ALSA)
 - [ ] **[UNREASONABLE]** an FM synth. the "fm" was never just about radio
+
+## Experiments
+
+Little side-by-side tests, for hearing what a single feature actually does:
+
+- `melody_hard` vs `melody_smooth` — the same solo melody with hard note edges vs a strong ADSR envelope. Play them back to back: one clicks, the other breathes.
+- `polyphony_adsr` — polyphony and envelopes combined: the three-voice mix with per-note ADSR, so nothing clicks.
 
 ## Why?
 
