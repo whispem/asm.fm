@@ -58,9 +58,16 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
 - [x] all four oscillators (square, saw, triangle, noise for drums)
 - [x] polyphony — melody + bass + percussion at once (a tiny tracker)
   - [x] polyphony + ADSR — the mix, now without clicks
-- [ ] ADSR envelopes, so notes breathe instead of clicking
-- [ ] **[AMBITIOUS]** real-time output straight to the sound card (`/dev/dsp`, then ALSA)
-- [ ] **[UNREASONABLE]** an FM synth. the "fm" was never just about radio
+- [x] ADSR envelopes, so notes breathe instead of clicking
+- [x] [AMBITIOUS] an FM synth. the "fm" was never just about radio
+- [ ] vibrato — the pitch, wavering gently, for a voice that's alive
+- [ ] tremolo — the volume, pulsing, like a heartbeat under the note
+- [ ] configurable tempo (BPM) — the same tune, fast or slow
+- [ ] PWM — pulse-width modulation, the square wave that shivers
+- [ ] a delay/echo — the sound, coming back to you, fading each time
+- [ ] reverb — a room built from math, so notes have somewhere to ring
+- [ ] [AMBITIOUS] multi-operator FM (6 operators, DX7-style algorithms)
+- [ ] [UNREASONABLE] real-time output straight to the sound card (/dev/dsp, then ALSA)
 
 ## Experiments
 
