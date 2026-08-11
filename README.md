@@ -60,7 +60,7 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
   - [x] polyphony + ADSR — the mix, now without clicks
 - [x] ADSR envelopes, so notes breathe instead of clicking
 - [x] [AMBITIOUS] an FM synth. the "fm" was never just about radio
-- [ ] vibrato — the pitch, wavering gently, for a voice that's alive
+- [x] vibrato — the pitch, wavering gently, for a voice that's alive
 - [ ] tremolo — the volume, pulsing, like a heartbeat under the note
 - [ ] configurable tempo (BPM) — the same tune, fast or slow
 - [ ] PWM — pulse-width modulation, the square wave that shivers
