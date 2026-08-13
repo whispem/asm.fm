@@ -52,6 +52,8 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
 
 ## Roadmap
 
+The story so far — from a single beep to a real synth:
+
 - [x] a single beep (square wave -> WAV header -> `write`)
 - [x] one octave, in tune (note -> frequency table)
 - [x] a real melody, sequenced by hand
@@ -59,15 +61,43 @@ A speaker is a cone that moves in and out. Describe its position 44100 times a s
 - [x] polyphony — melody + bass + percussion at once (a tiny tracker)
   - [x] polyphony + ADSR — the mix, now without clicks
 - [x] ADSR envelopes, so notes breathe instead of clicking
-- [x] [AMBITIOUS] an FM synth. the "fm" was never just about radio
+- [x] [AMBITIOUS] an FM synth — the "fm" was never just about radio
 - [x] vibrato — the pitch, wavering gently, for a voice that's alive
 - [x] tremolo — the volume, pulsing, like a heartbeat under the note
   - [x] strong tremolo — depth cranked up, the note pulsing rhythmically
 - [x] configurable tempo (BPM) — the same tune, fast or slow
-- [ ] PWM — pulse-width modulation, the square wave that shivers
-- [ ] a delay/echo — the sound, coming back to you, fading each time
+- [x] PWM — pulse-width modulation, the square wave that shivers
+- [x] a delay/echo — the sound, coming back to you, fading each time
+
+### Next — sculpting the timbre
+
+- [ ] a low-pass filter — carve the highs, warm and mellow
+- [ ] bitcrusher — crush the resolution, lo-fi and crunchy
+- [ ] ring modulation — two signals multiplied, metallic and strange
+- [ ] a resonant filter sweep — the "wah" that opens and closes
+
+### Space and movement
+
+- [ ] chorus — one voice becoming many, wide and shimmering
 - [ ] reverb — a room built from math, so notes have somewhere to ring
+- [ ] shimmer reverb — reflections rising into the light, ambient and celestial
+- [ ] a stutter/glitch effect — sound shattered and repeated, hyperpop in assembly
+- [ ] sidechain pumping — the volume breathing in time, the heartbeat of modern electronic music
+
+### Playing the machine
+
+- [ ] an arpeggiator — chords played one note at a time, automatically
+- [ ] microtonal tunings — stepping outside the 12 notes the West agreed on
+- [ ] a text score format — compose in a file, no recompiling
+
+### The deep end — modern synthesis, hand-rolled
+
+- [ ] wavetable synthesis — a table of shapes, morphing as it plays (the modern sound, in pure asm)
 - [ ] [AMBITIOUS] multi-operator FM (6 operators, DX7-style algorithms)
+- [ ] [AMBITIOUS] Karplus-Strong — plucked strings from a burst of noise
+- [ ] [AMBITIOUS] granular synthesis — sound broken into a thousand grains, clouds of texture
+- [ ] [AMBITIOUS] a terminal waveform visualizer, drawing the sound as it plays
+- [ ] [UNREASONABLE] spectral processing — an FFT in pure assembly, painting sound in frequencies
 - [ ] [UNREASONABLE] real-time output straight to the sound card (/dev/dsp, then ALSA)
 
 ## Experiments
