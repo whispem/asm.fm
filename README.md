@@ -71,8 +71,8 @@ The story so far — from a single beep to a real synth:
 
 ### Next — sculpting the timbre
 
-- [ ] a low-pass filter — carve the highs, warm and mellow
-- [ ] bitcrusher — crush the resolution, lo-fi and crunchy
+- [x] a low-pass filter — carve the highs, warm and mellow
+- [x] bitcrusher — crush the resolution, lo-fi and crunchy
 - [ ] ring modulation — two signals multiplied, metallic and strange
 - [ ] a resonant filter sweep — the "wah" that opens and closes
 
