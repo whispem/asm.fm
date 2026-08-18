@@ -69,33 +69,49 @@ The story so far — from a single beep to a real synth:
 - [x] PWM — pulse-width modulation, the square wave that shivers
 - [x] a delay/echo — the sound, coming back to you, fading each time
 
-### Next — sculpting the timbre
+### Sculpting the timbre
 
 - [x] a low-pass filter — carve the highs, warm and mellow
 - [x] bitcrusher — crush the resolution, lo-fi and crunchy
 - [x] ring modulation — two signals multiplied, metallic and strange
 - [x] a resonant filter sweep — the "wah" that opens and closes
+- [ ] distortion / overdrive — push the signal past its limits, crunchy and hot
+- [ ] an auto-wah — a filter that follows the signal's own energy, funky and alive
 
 ### Space and movement
 
 - [x] chorus — one voice becoming many, wide and shimmering
 - [x] reverb — a room built from math, so notes have somewhere to ring
+- [ ] a flanger — a swept short delay, the sound of a jet passing overhead
+- [ ] a phaser — moving notches drifting through the spectrum, swirling and psychedelic
 - [ ] shimmer reverb — reflections rising into the light, ambient and celestial
 - [ ] a stutter/glitch effect — sound shattered and repeated, hyperpop in assembly
 - [ ] sidechain pumping — the volume breathing in time, the heartbeat of modern electronic music
 
+### Shaping the dynamics
+
+- [ ] a compressor — taming the loud and lifting the quiet, the invisible hand of every mix
+- [ ] a limiter — a hard ceiling, so nothing ever clips
+
 ### Playing the machine
 
 - [ ] an arpeggiator — chords played one note at a time, automatically
+- [ ] a step sequencer — a grid of on and off, the heart of every drum machine
+- [ ] drum patterns — a real beatmaker, kick and snare and hat in pure asm
+- [ ] swing / groove — nudging the offbeats late, so the machine feels human
+- [ ] named chords — play Cmaj7 or Dm by name, not by hand-stacked frequencies
 - [ ] microtonal tunings — stepping outside the 12 notes the West agreed on
 - [ ] a text score format — compose in a file, no recompiling
 
 ### The deep end — modern synthesis, hand-rolled
 
 - [ ] wavetable synthesis — a table of shapes, morphing as it plays (the modern sound, in pure asm)
+- [ ] a pitch shifter — moving the pitch without moving the time (or the reverse)
+- [ ] a vocoder — one signal's voice wrapped around another, the robot that sings
 - [ ] [AMBITIOUS] multi-operator FM (6 operators, DX7-style algorithms)
 - [ ] [AMBITIOUS] Karplus-Strong — plucked strings from a burst of noise
 - [ ] [AMBITIOUS] granular synthesis — sound broken into a thousand grains, clouds of texture
+- [ ] [AMBITIOUS] convolution reverb — the fingerprint of a real hall, not a mathematical guess
 - [ ] [AMBITIOUS] a terminal waveform visualizer, drawing the sound as it plays
 - [ ] [UNREASONABLE] spectral processing — an FFT in pure assembly, painting sound in frequencies
 - [ ] [UNREASONABLE] real-time output straight to the sound card (/dev/dsp, then ALSA)
