@@ -78,8 +78,8 @@ The story so far — from a single beep to a real synth:
 
 ### Space and movement
 
-- [ ] chorus — one voice becoming many, wide and shimmering
-- [ ] reverb — a room built from math, so notes have somewhere to ring
+- [x] chorus — one voice becoming many, wide and shimmering
+- [x] reverb — a room built from math, so notes have somewhere to ring
 - [ ] shimmer reverb — reflections rising into the light, ambient and celestial
 - [ ] a stutter/glitch effect — sound shattered and repeated, hyperpop in assembly
 - [ ] sidechain pumping — the volume breathing in time, the heartbeat of modern electronic music
