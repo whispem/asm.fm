@@ -75,8 +75,8 @@ The story so far — from a single beep to a real synth:
 - [x] bitcrusher — crush the resolution, lo-fi and crunchy
 - [x] ring modulation — two signals multiplied, metallic and strange
 - [x] a resonant filter sweep — the "wah" that opens and closes
-- [ ] distortion / overdrive — push the signal past its limits, crunchy and hot
-- [ ] an auto-wah — a filter that follows the signal's own energy, funky and alive
+- [x] distortion / overdrive — push the signal past its limits, crunchy and hot
+- [x] an auto-wah — a filter that follows the signal's own energy, funky and alive
 
 ### Space and movement
 
