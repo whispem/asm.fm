@@ -78,12 +78,23 @@ The story so far — from a single beep to a real synth:
 - [x] distortion / overdrive — push the signal past its limits, crunchy and hot
 - [x] an auto-wah — a filter that follows the signal's own energy, funky and alive
 
+### More oscillators, stranger voices
+
+- [x] a supersaw — many detuned saws stacked into one huge trance lead
+- [ ] hard sync — one oscillator resetting another, tearing and aggressive
+- [ ] an octaver — a copy an octave below, thick and heavy like a synth bass
+- [ ] additive synthesis — building a tone by stacking dozens of sines, one harmonic at a time
+- [ ] phase distortion synthesis — the Casio CZ trick, bending the read-through of a wave
+
 ### Space and movement
 
 - [x] chorus — one voice becoming many, wide and shimmering
 - [x] reverb — a room built from math, so notes have somewhere to ring
 - [ ] a flanger — a swept short delay, the sound of a jet passing overhead
 - [ ] a phaser — moving notches drifting through the spectrum, swirling and psychedelic
+- [ ] a rotary speaker (Leslie) — a spinning voice, the swirl of a Hammond organ
+- [ ] harmonic tremolo — lows and highs pulsing against each other, liquid and vintage
+- [ ] a slapback delay — one short echo, rockabilly and immediate
 - [ ] shimmer reverb — reflections rising into the light, ambient and celestial
 - [ ] a stutter/glitch effect — sound shattered and repeated, hyperpop in assembly
 - [ ] sidechain pumping — the volume breathing in time, the heartbeat of modern electronic music
@@ -92,14 +103,19 @@ The story so far — from a single beep to a real synth:
 
 - [ ] a compressor — taming the loud and lifting the quiet, the invisible hand of every mix
 - [ ] a limiter — a hard ceiling, so nothing ever clips
+- [ ] a noise gate — silence below a threshold, cutting the hiss and the dead air
 
 ### Playing the machine
 
 - [ ] an arpeggiator — chords played one note at a time, automatically
 - [ ] a step sequencer — a grid of on and off, the heart of every drum machine
 - [ ] drum patterns — a real beatmaker, kick and snare and hat in pure asm
+- [ ] euclidean rhythms — beats spread evenly by an ancient algorithm, the pulse of techno
 - [ ] swing / groove — nudging the offbeats late, so the machine feels human
+- [ ] scale quantization — snapping notes to a scale, so everything plays in key
 - [ ] named chords — play Cmaj7 or Dm by name, not by hand-stacked frequencies
+- [ ] probability / generative notes — notes that fire by chance, music that writes itself
+- [ ] a drone mode — sustained, evolving pads, ambient and endless
 - [ ] microtonal tunings — stepping outside the 12 notes the West agreed on
 - [ ] a text score format — compose in a file, no recompiling
 
@@ -107,11 +123,16 @@ The story so far — from a single beep to a real synth:
 
 - [ ] wavetable synthesis — a table of shapes, morphing as it plays (the modern sound, in pure asm)
 - [ ] a pitch shifter — moving the pitch without moving the time (or the reverse)
+- [ ] an octave/harmony generator — building chords from a single played note
 - [ ] a vocoder — one signal's voice wrapped around another, the robot that sings
+- [ ] MIDI export — write out a .mid alongside the .wav, to open your work in a real DAW
 - [ ] [AMBITIOUS] multi-operator FM (6 operators, DX7-style algorithms)
 - [ ] [AMBITIOUS] Karplus-Strong — plucked strings from a burst of noise
+- [ ] [AMBITIOUS] physical modeling — simulating a tube or a reed, breath turned to sound
 - [ ] [AMBITIOUS] granular synthesis — sound broken into a thousand grains, clouds of texture
+- [ ] [AMBITIOUS] concatenative synthesis — reassembling fragments of real sound, collage as instrument
 - [ ] [AMBITIOUS] convolution reverb — the fingerprint of a real hall, not a mathematical guess
+- [ ] [AMBITIOUS] a full tracker interface — patterns, instruments, per-column effects, the FastTracker way
 - [ ] [AMBITIOUS] a terminal waveform visualizer, drawing the sound as it plays
 - [ ] [UNREASONABLE] spectral processing — an FFT in pure assembly, painting sound in frequencies
 - [ ] [UNREASONABLE] real-time output straight to the sound card (/dev/dsp, then ALSA)
