@@ -90,8 +90,8 @@ The story so far — from a single beep to a real synth:
 
 - [x] chorus — one voice becoming many, wide and shimmering
 - [x] reverb — a room built from math, so notes have somewhere to ring
-- [ ] a flanger — a swept short delay, the sound of a jet passing overhead
-- [ ] a phaser — moving notches drifting through the spectrum, swirling and psychedelic
+- [x] a flanger — a swept short delay, the sound of a jet passing overhead
+- [x] a phaser — moving notches drifting through the spectrum, swirling and psychedelic
 - [ ] a rotary speaker (Leslie) — a spinning voice, the swirl of a Hammond organ
 - [ ] harmonic tremolo — lows and highs pulsing against each other, liquid and vintage
 - [ ] a slapback delay — one short echo, rockabilly and immediate
