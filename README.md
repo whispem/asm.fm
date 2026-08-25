@@ -83,8 +83,8 @@ The story so far — from a single beep to a real synth:
 - [x] a supersaw — many detuned saws stacked into one huge trance lead
 - [x] hard sync — one oscillator resetting another, tearing and aggressive
 - [x] an octaver — a copy an octave below, thick and heavy like a synth bass
-- [ ] additive synthesis — building a tone by stacking dozens of sines, one harmonic at a time
-- [ ] phase distortion synthesis — the Casio CZ trick, bending the read-through of a wave
+- [x] additive synthesis — building a tone by stacking dozens of sines, one harmonic at a time
+- [x] phase distortion synthesis — the Casio CZ trick, bending the read-through of a wave
 
 ### Space and movement
 
