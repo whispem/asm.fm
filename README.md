@@ -95,7 +95,7 @@ The story so far — from a single beep to a real synth:
 - [x] a rotary speaker (Leslie) — a spinning voice, the swirl of a Hammond organ
 - [x] harmonic tremolo — lows and highs pulsing against each other, liquid and vintage
 - [x] a slapback delay — one short echo, rockabilly and immediate
-- [ ] shimmer reverb — reflections rising into the light, ambient and celestial
+- [x] shimmer reverb — reflections rising into the light, ambient and celestial
 - [ ] a stutter/glitch effect — sound shattered and repeated, hyperpop in assembly
 - [ ] sidechain pumping — the volume breathing in time, the heartbeat of modern electronic music
 
